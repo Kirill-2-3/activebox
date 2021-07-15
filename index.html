@@ -7,6 +7,7 @@
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=Cardo:ital@1&family=Open+Sans:wght@700&family=Raleway:wght@300;400;600;700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css"/>
     <title>Active Box</title>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
 </head>
@@ -308,15 +309,31 @@
 <!-- Reviews -->
 <div class="reviews" id="reviews">
     <div class="container">
-        <div class="reviews-inner">
-            <div class="reviews-photo">
-                <img class="reviews-img" src="img/reviews/review-1.jpg" alt="">
+        <div class="slick-reviews" id="slick-reviews">
+            <div class="reviews-item">
+                <div class="reviews-inner">
+                    <div class="reviews-photo">
+                        <img class="reviews-img" src="img/reviews/review-1.jpg" alt="">
+                    </div>
+                    <div class="reviews-content">
+                        <div class="reviews-text">“Integer posuere erat a ante venenatis dapibus posuere velit aliquet. Donec sed odio dui. Aenean eu leo quam...”</div>
+                        <div class="author">susan sims, interaction designer at xyz</div>
+                    </div>
+                </div>
             </div>
-            <div class="reviews-content">
-                <div class="reviews-text">“Integer posuere erat a ante venenatis dapibus posuere velit aliquet. Donec sed odio dui. Aenean eu leo quam...”</div>
-                <div class="author">susan sims, interaction designer at xyz</div>
+
+            <div class="reviews-item">
+                <div class="reviews-inner">
+                    <div class="reviews-photo">
+                        <img class="reviews-img" src="img/reviews/review-1.jpg" alt="">
+                    </div>
+                    <div class="reviews-content">
+                        <div class="reviews-text">“Integer posuere erat a ante venenatis dapibus posuere velit aliquet. Donec sed odio dui. Aenean eu leo quam...”</div>
+                        <div class="author">susan sims, interaction designer at xyz</div>
+                    </div>
+                </div>
             </div>
-        </div>
+        </div><!-- /.slick-reviews -->
     </div><!-- /.container -->
 </div><!-- /.reviews -->
 
@@ -390,6 +407,9 @@
 </div><!-- /.page -->
 
 
+
+<!-- JS -->
+<script type="text/javascript" src="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
 <script src="app.js"></script>
 
 </body>

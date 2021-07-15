@@ -45,4 +45,22 @@ $(function() {
 
         $(nav).toggleClass("show");
     })
+
+
+
+    /* Slick */
+
+    let slickReviews = $("#slick-reviews");
+
+    slickReviews.slick({
+        infinite: true,
+        slidesToShow: 1,
+        slidesToScroll: 1,
+        arrows: false,
+        dots: true,
+        speed: 700,
+        cssEase: 'linear',
+        autoplay: true,
+        autoplaySpeed: 3000,
+    });
 });

@@ -403,6 +403,45 @@ ul, ol {
     background-color: #53354A;
 }
 
+.slick-reviews {
+    height: 500px;
+    overflow: hidden;
+}
+
+.slick-dots {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+
+    position: absolute;
+    bottom: 0;
+    left: 0;
+}
+
+.slick-dots li {
+    padding: 5px;
+}
+
+.slick-dots button {
+    width: 20px;
+    height: 20px;
+
+    background: none;
+    border: 1px solid #ccc;
+    border-radius: 50%;
+    cursor: pointer;
+
+    font-size: 0;
+}
+
+.slick-active button {
+    background-color: #ccc;
+}
+
+.reviews-item {
+    overflow: hidden;
+}
+
 .reviews-inner {
     display: flex;
     flex-wrap: wrap;
@@ -625,7 +664,7 @@ ul, ol {
         text-align: right;
 
         position: absolute;
-        top: 100%;
+        top: 99%;
         right: 0;
 
         background-color: #30354F;
